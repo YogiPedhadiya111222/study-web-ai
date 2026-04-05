@@ -1,0 +1,986 @@
+
+> study-ai-backend@1.0.0 start
+> node server.js
+
+Server running on port 3002
+MongoDB connected
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: null,
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: null,
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: 'yogi patel',
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: 'english',
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 21,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 182,
+  weeklyDataPoints: 7,
+  subjectCount: 6
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: null,
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: null,
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: 'yogi patel',
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: 'english',
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 21,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 182,
+  weeklyDataPoints: 7,
+  subjectCount: 6
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: null,
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: null,
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: 'yogi patel',
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: 'english',
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 21,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 182,
+  weeklyDataPoints: 7,
+  subjectCount: 6
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: null,
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: null,
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 14,
+  nonZeroDurationCount: 11,
+  zeroDurationCount: 3,
+  sampleSessions: [
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    },
+    {
+      id: '69d13271b1954fec9f931c6b',
+      taskId: '69d13269b1954fec9f931c60',
+      subject: 'yogi patel',
+      startTime: '2026-04-04T15:46:57.910Z',
+      endTime: '2026-04-04T15:50:07.130Z',
+      storedDurationMinutes: 3,
+      calculatedDurationMinutes: 3
+    },
+    {
+      id: '69d13025b1954fec9f931b1c',
+      taskId: '69d12fcfb1954fec9f931aca',
+      subject: 'english',
+      startTime: '2026-04-04T15:37:09.345Z',
+      endTime: '2026-04-04T15:40:08.899Z',
+      storedDurationMinutes: 2,
+      calculatedDurationMinutes: 2
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 21,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 182,
+  weeklyDataPoints: 7,
+  subjectCount: 6
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: null,
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: 'patel',
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 27,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 188,
+  weeklyDataPoints: 7,
+  subjectCount: 7
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: null,
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: 'patel',
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 27,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 188,
+  weeklyDataPoints: 7,
+  subjectCount: 7
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: null,
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:subject-rollup] session debug {
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: 'patel',
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: 'english larning',
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: 'yogi patel is backe',
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: 'backend yogi planer',
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:summary] response payload {
+  todayStudyMinutes: 27,
+  yesterdayStudyMinutes: 161,
+  weeklyStudyMinutes: 188,
+  weeklyDataPoints: 7,
+  subjectCount: 7
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: null,
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
+[analytics:weekly-range] session debug {
+  start: '2026-03-29T18:30:00.000Z',
+  end: '2026-04-05T18:29:59.999Z',
+  dayKeys: [
+    '2026-03-30',
+    '2026-03-31',
+    '2026-04-01',
+    '2026-04-02',
+    '2026-04-03',
+    '2026-04-04',
+    '2026-04-05'
+  ],
+  sessionCount: 16,
+  nonZeroDurationCount: 12,
+  zeroDurationCount: 4,
+  sampleSessions: [
+    {
+      id: '69d181bc5207df4e35fefead',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T21:25:16.516Z',
+      endTime: '2026-04-04T21:25:19.921Z',
+      storedDurationMinutes: 0,
+      calculatedDurationMinutes: 0
+    },
+    {
+      id: '69d17dc15207df4e35fefe52',
+      taskId: '69d17dbc5207df4e35fefe47',
+      subject: null,
+      startTime: '2026-04-04T21:08:17.254Z',
+      endTime: '2026-04-04T21:25:12.746Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16e8984fceb6b5a37cc7e',
+      taskId: '69d16e6384fceb6b5a37cc3f',
+      subject: null,
+      startTime: '2026-04-04T20:03:21.963Z',
+      endTime: '2026-04-04T20:10:12.658Z',
+      storedDurationMinutes: 6,
+      calculatedDurationMinutes: 6
+    },
+    {
+      id: '69d16a1a114d576b02e44cd8',
+      taskId: '69d16a14114d576b02e44ccd',
+      subject: null,
+      startTime: '2026-04-04T19:44:26.285Z',
+      endTime: '2026-04-04T20:02:54.527Z',
+      storedDurationMinutes: 15,
+      calculatedDurationMinutes: 15
+    },
+    {
+      id: '69d133a1b1954fec9f931ccd',
+      taskId: '69d13392b1954fec9f931cc2',
+      subject: null,
+      startTime: '2026-04-04T15:52:01.688Z',
+      endTime: '2026-04-04T16:56:14.879Z',
+      storedDurationMinutes: 60,
+      calculatedDurationMinutes: 60
+    }
+  ]
+}
