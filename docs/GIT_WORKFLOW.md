@@ -53,13 +53,13 @@ If you prefer to run commands yourself:
 git status
 git add .
 git commit -m "Describe your changes clearly"
-git push -u origin master
+git push -u origin main
 ```
 
-If the branch is `main`, use:
+If your repository still uses `master`, use:
 
 ```powershell
-git push -u origin main
+git push -u origin master
 ```
 
 After the first successful push, your normal update flow is:
@@ -81,11 +81,11 @@ git remote add origin <repository-url>
 Push rejected:
 
 ```powershell
-git pull origin master --rebase
-git push origin master
+git pull origin main --rebase
+git push origin main
 ```
 
-If the branch is `main`, replace `master` with `main`.
+If your repository still uses `master`, replace `main` with `master`.
 
 Authentication failed:
 
