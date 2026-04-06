@@ -1,0 +1,49 @@
+# Monorepo dependencies
+**/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build output
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/coverage/
+
+# Logs and runtime artifacts
+/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local tooling state
+/.vercel/
+/.zencoder/
+/.zenflow/
+
+# Nested repo backups
+/study-ai-frontend/.git
+/study-ai-frontend/.git.local-backup/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.pem
+
+# TypeScript
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Windows reserved-name artifact
+/CON
